@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Coding Event Registration</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="icon" href="tabLogo.png">
+
+</head>
+
+<body>
+	<div class="user">
+		<ul>
+			<li><a href="https://coding-event.000webhostapp.com" class="registration-btn"><span>Sign-In</span></a></li>
+		</ul>
+		<header class="user__header">
+			
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3219/logo.svg" alt="" />
+			<h1 class="user__title">Pratyarth 2020 Coding Event sign-up form</h1>
+			<h3 class="user__title">Use Caps To fill the form</h3>
+		</header>
+		
+		<form action="source.php" method="GET" name="myForm" class="form">
+
+			<div class="form__group">
+				<input type="text" placeholder="Team Name" class="form__input" name="rteam" required/>
+			</div>
+			
+			<div class="form__group">
+				<input type="text" placeholder="Contestant 1" class="form__input" name="rcon1" required/>
+			</div>
+			
+			<div class="form__group">
+				<input type="text" placeholder="Year Of Study 			Ex:Enter 1 if First Year" class="form__input" name="rc1study" required/>
+			</div>
+			
+			<div class="form__group">
+				<input type="text" placeholder="Branch	    Enter Short Form of your Department" class="form__input" name="rbranch1" required/>
+			</div>
+			
+			<div class="form__group">
+				<input type="text" placeholder="Contestant 2" class="form__input" name="rcon2" required/>
+			</div>
+			
+			<div class="form__group">
+				<input type="text" placeholder="Year Of Study" class="form__input" name="rc2study" required/>
+			</div>
+			
+			<div class="form__group">
+				<input type="text" placeholder="Branch" class="form__input" name="rbranch2" required/>
+			</div>
+			<div class="form__group">
+				<input type="text" placeholder="Phone Number" class="form__input" name="rphone" required/>
+			</div>
+			<button class="btn" type="submit">Register</button>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
